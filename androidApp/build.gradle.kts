@@ -1,8 +1,10 @@
+import com.android.build.api.dsl.ApplicationExtension
+
 plugins {
-    alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.androidApplication)
 }
 
-android {
+configure<ApplicationExtension> {
     namespace = "in.das.androidapp"
     compileSdk {
         version = release(36)
@@ -12,7 +14,6 @@ android {
         minSdk = 28
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
