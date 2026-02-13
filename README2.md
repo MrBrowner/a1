@@ -9,3 +9,20 @@ Commits style
 <br>X  bug/error
 <br>!  improvement
 <br>...  work in progresss
+
+Core Areas
+>Data & Files
+<br>Permissions
+<br>User Identity
+<br>Navigation
+<br>Intent & intent filters
+<br>Background tasks
+<br>Services
+<br>Device awake state
+<br>Audio & Video
+<br>Camera
+<br>Sensors
+<br>User location
+<br>Connectivity
+<br>App Compatibility
+<br>App bundles
