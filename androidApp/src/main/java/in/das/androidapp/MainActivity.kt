@@ -1,4 +1,4 @@
-package `in`.das.a1
+package `in`.das.androidapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
